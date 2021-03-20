@@ -1,0 +1,71 @@
+ .icon{
+  color: rgb(207, 155, 11);
+}
+ .item-container {
+            box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12);
+            padding: 24px;
+            height: 250px;
+            width: 250px;
+            border-radius: 20px;
+            background-color: #201c2c;
+        }
+.item-container>p{
+	line-height: 12.5px;
+	color:#a0a0a0;
+	text-align:justify;
+}
+
+a>.btn{
+
+  	transition-duration: 0.4s;
+    place-items: center center;
+    font-family: 'Poppins',sans-serif;
+    width: 87px;
+    height: 37px;
+    margin-left: 49px;
+    margin-top: 8px;
+    border-radius: 11px;
+    background-color:rgb(207, 155, 11);
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #151320;
+    
+}
+.btn:hover {
+  background-color: grey;  /* Green */
+  color:white;
+}
+.cards>b
+{
+	color: #cf9b0b;
+	font-size:21.5px;
+	text-align:center;
+}
+
+#navba{
+      transition: top 0.3s;
+        background-color: #1c1b29;
+        width:100%;
+        top:0;
+  }
+.shift{
+    margin-left: 58rem;
+    margin-right: 22.5px;
+  }
+.brand{
+  margin-left: 1.9rem;
+}
+@media (max-width: 1200px){
+.shift{
+      margin-left: 0;
+      margin-right: 10px;
+ }
+ .brand{
+  margin-left: 0rem;
+
+}
+}
+
+
+
